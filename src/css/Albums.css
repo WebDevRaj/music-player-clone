@@ -1,0 +1,36 @@
+.albums {
+    width: 50%;
+    color: #241C19;
+    margin-bottom: 15px;
+}
+
+.albums__img {
+    height: 220px;
+    margin-top: 20px;
+}
+
+.album__circle {
+    font-size: 0.5rem;
+    color: #e2d9d7;
+}
+
+.albums__table td {
+    padding: 10px 10px 10px 0;
+
+}
+
+.album__btn {
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.album__btn-light {
+    background: #e0d3d0;
+    color: #241C19;
+}
+
+.album__btn-dark {
+    background: #a5887a;
+    color: #fff;
+}

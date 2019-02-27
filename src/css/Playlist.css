@@ -1,0 +1,77 @@
+.playlist {
+    padding: 20px;
+    padding-right: 0;
+    width: 50%;
+    color: #241C19;
+}
+
+.playlist__selected-album {
+    font-size: 1.4rem;
+}
+
+.playlist__controls {
+    display: flex;
+    justify-content: center;
+}
+
+.playlist__controls {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: #e0d3d0;
+}
+
+.playlist__now-playing {
+    margin: 5px 0;
+    color: #a5887a;
+    font-style: italic;
+}
+
+.playlist__table {
+    color: #a5887a;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.playlist__table td {
+    padding-right: 15px;
+}
+
+.playlist__song-link {
+    cursor: pointer;
+}
+
+.playlist__play-btn {
+    color: #e0d3d0;
+}
+
+.playlist__play-btn--active {
+    color: #a5887a;
+}
+
+.playlist__seek {
+    width: 400px;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.playlist__seek-left {
+    display: inline-block;
+    background: #e0d3d0;
+    height: 5px;
+    width: 45%
+}
+
+.playlist__seek-right {
+    display: inline-block;
+    background: #a5887a;
+    height: 5px;
+    width: 55%
+}
+
+.playlist__seek-circle {
+    font-size: 1.5rem;
+    color: #3b2b25;
+}

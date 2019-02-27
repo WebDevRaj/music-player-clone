@@ -1,0 +1,11 @@
+.App {
+  height: 100%;
+}
+
+.main__lower {
+  min-height: 500px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
